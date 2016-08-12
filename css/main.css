@@ -1,0 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 100px auto;
+  position: relative;
+}
+.vertical {
+  min-height: 100%;  
+  display: flex;
+  align-items: center;
+}
+.content {
+  min-height: 300px; 
+}
+.row.review {
+    border-bottom: 1px solid #999999;
+    margin: 10px 3px;
+}
